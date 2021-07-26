@@ -78,20 +78,19 @@ setSignupPassword('')
     return(
         <div className="Login">
             <h2>Sign up!</h2>
-            <form onSubmit={handleSignup} >
+            <form onSubmit={handleSignup} className="signupForm" > 
                 <input type="text" name="username" placeholder="Username..." value={signupUsername} onChange={event => setSignupUsername(event.target.value)} />
                 <input type="password" name="password" placeholder= "Password..." value={signupPassword} onChange={event => setSignupPassword(event.target.value)} />
-                <input type="submit" value="signup" />
+                <input type="submit" value="Signup" />
             </form>
-
-            <h2>Login!</h2>
-            <form onSubmit={handleLogin} >
+        
+            <h2>Existing User? Login!</h2>
+            <form onSubmit={handleLogin} className="loginForm" >
                 <input type="text" name="username" placeholder="Username..." value={loginUsername} onChange={event => setLoginUsername(event.target.value)} />
                 <input type="password" name="password" placeholder= "Password..." value={loginPassword} onChange={event => setLoginPassword(event.target.value)} />
-                <input type="submit" value="login" />
+                <input type="submit" value="Login" />
             </form>
 
-          <button onClick={getProfile}>Profile</button>
         </div>
     )
 }

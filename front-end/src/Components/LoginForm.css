@@ -1,0 +1,19 @@
+*{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.loginForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signupForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
