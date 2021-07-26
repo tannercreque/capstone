@@ -28,19 +28,19 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <img src='../photos/2021-05-08.png' className='navbar-logo' style={{width: "85px", height: "60px"}}></img>
-          <div className='logo-text'>VanOpdorp Photography</div>
+          <div className='logo-text'>Ruby's Lua Journey</div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+              <Link to='/login' className='nav-links' onClick={closeMobileMenu}>
+                Sign Up!
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/scripts'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

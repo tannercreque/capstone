@@ -1,13 +1,17 @@
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Navbar from './Components/Navbar'
+import LoginForm from './Components/LoginForm'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
+    <>
+    <Router>
       <Navbar />
-      <p></p>
-    </div>
-  );
+      <Switch>
+        <Route path='/login' exact component={LoginForm} />
+      </Switch>
+    </Router>
+    </>
+  )
 }
-
-export default App;
