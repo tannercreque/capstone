@@ -27,8 +27,8 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <img src='../photos/2021-05-08.png' className='navbar-logo' style={{width: "85px", height: "60px"}}></img>
-          <div className='logo-text'>Ruby's Lua Journey</div>
+          <img src='../photos/roopy.png' alt="ruby" className='navbar-logo'></img>
+          <div className='logo-text'>Ruby's Lua Showcase</div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
@@ -49,11 +49,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/about'
+                to='/home'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                About
+                Home
               </Link>
             </li>
           </ul>

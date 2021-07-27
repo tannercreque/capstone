@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './LoginForm.css';
+import { Link } from 'react-router-dom';
+
 
 function LoginForm() {
 
@@ -90,8 +92,15 @@ setSignupPassword('')
                 <input type="password" name="password" placeholder= "Password..." value={loginPassword} onChange={event => setLoginPassword(event.target.value)} />
                 <input type="submit" value="Login" />
             </form>
-
+            <div className="styleDiv">
+              <h1>Stylesss</h1>
+              <image src="../photos/code.png"></image>
+            </div>
         </div>
+      
+
+
+
     )
 }
 
