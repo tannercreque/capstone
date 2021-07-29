@@ -5,18 +5,66 @@
 .loginForm{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 h2{
+    background-color: rgba(255, 255, 255, 0.72);
     display: flex;
+    width: 410px;
     align-items: center;
     justify-content: center;
 }
 .signupForm{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
 }
-.styleDiv{
-    color: red;
+.Login{
+    background-image: url("https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    width: 3500px;
+    height: 2333px;
+}
+.button, .tick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 90vh;
+}
+
+.button {
+display: flex;
+justify-content: center;
+width: 300px;
+height: 80px;
+background: dodgerblue;
+border-radius: 6px;
+transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+}
+
+.button svg {
+  transform: rotate(180deg);
+  transition: all .5s;
+}
+
+.button__circle {
+  width: 120px;
+  height: 120px;
+  background: mediumseagreen;
+  border-radius: 50%;
+  transform: rotate(-180deg);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.tick {
+  color: white;
+  font-size: 2em;
+  transition: all .9s;
 }

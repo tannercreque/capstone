@@ -6,7 +6,6 @@ const Home = () => {
     return (
         <>
             <div className="home-container">
-                <video src='../photos/coding.mp4' autoPlay loop muted></video>
                 <h1>Lua Script Showcase</h1>
             </div>
             <CardContainer />
