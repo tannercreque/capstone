@@ -91,12 +91,6 @@ setSignupPassword('')
                 <input type="password" name="password" placeholder= "Password..." value={signupPassword} onChange={event => setSignupPassword(event.target.value)} />
                 <input type="submit" value="Signup" />
             </form>
-            <div class="button">
-	            <div class="container">
-		            <div class="tick">
-		            </div>
-	            </div>
-            </div>
             <h2>Existing User? Login!</h2>
             <form onSubmit={handleLogin} className="loginForm" >
                 <input type="text" name="username" placeholder="Username..." value={loginUsername} onChange={event => setLoginUsername(event.target.value)} />

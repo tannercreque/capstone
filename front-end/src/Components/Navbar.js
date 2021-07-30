@@ -27,7 +27,6 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <img src='../photos/roopy.png' alt="ruby" className='navbar-logo'></img>
           <div className='logo-text'>Ruby's Lua Showcase</div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
