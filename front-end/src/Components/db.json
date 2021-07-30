@@ -1,0 +1,8 @@
+{
+    "scripts":{
+        "id": 1,
+        "name": "House Robbery",
+        "image": "https://imgur.com/kbtwxSv",
+        "description": "This is a script that does scripty things"
+    }
+}

@@ -5,7 +5,7 @@ import './capstone.PNG'
 export default function Script() {
     return (
         <div className='image-one'>
-            <img src={require('./capstone.PNG')} />
+            <img src='https://imgur.com/kbtwxSv' className='lockpick-image'/>
         </div>
     )
 }

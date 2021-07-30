@@ -5,13 +5,14 @@ function CardItem(props) {
     <>
       <li className='cards__item'>
         <div className='cards__item__link' to={props.path}>
-          <figure className='cards__item__pic-wrap' data-category={props.name}>
-              {/* A TAG HERE? */}
+          <figure className='cards__item__pic-wrap' data-category={props.title}>
+            <a href={props.image}>
               <img
                 className='cards__item__img'
                 alt={props.description}
                 src={props.image}
               />
+            </a>
           </figure>
           <div className='cards__item__info'>
             <h5 className='cards__item__text'>{props.description}</h5>
