@@ -2,7 +2,7 @@ import React from 'react'
 import CardContainer from './CardContainer'
 import CardItem from './CardItem'
 
-function Explore() {
+function ExploreScript() {
     return (
         <div className='explore-container'>
             <CardContainer />
@@ -12,4 +12,4 @@ function Explore() {
     )
 }
 
-export default Explore
+export default ExploreScript
